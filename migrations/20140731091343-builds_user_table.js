@@ -1,3 +1,5 @@
+// based on:
+// https://github.com/wdi-sf-july/starter_code_for_auth/blob/master/migrations%2F20140729101427-create_users_table.js
 module.exports = {
   up: function(migration, DataTypes, done) {
     // add altering commands here, calling 'done' when finished
