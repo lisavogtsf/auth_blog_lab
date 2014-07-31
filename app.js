@@ -21,7 +21,7 @@ app.use(function(req, res, next){
 });
 
 app.get('/users', function (req,res) {
-//
+  res.render('index');
 });
 
 app.get('/users/:id', function (req,res) {
